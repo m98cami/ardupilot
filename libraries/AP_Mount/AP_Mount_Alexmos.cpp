@@ -1,3 +1,11 @@
+// Inicializa puerto serial, pide y obtiene parámetros globales y de perfil, 
+// Actualiza la posición de la montura periodicamente ( lee los mensajes del gimbal, evalúa el modo de montura (Retractil, neutral), 
+//modo de montura según los mensajes de mavlink, control manual de angulo-RC radio, apunta a un punto GPS dado por MP, 
+//modo montura ubicación-home, modo sysid target)
+//Función que retoma si la montura tiene control de pan, Obtiene la altitud como quaternion, Obtiene la versión de la tarjeta y del firmware
+//Envía nuevo objetivo de ángulo al gimbal a 30 deg/s, Lee parámetros de la configuración del gimbal, Escribe nuevos parámetros a la config del gimbal
+//Lee y detecta el encabezado de mensajes entrantes del gimbal
+
 #include "AP_Mount_Alexmos.h"
 
 #if HAL_MOUNT_ALEXMOS_ENABLED 
