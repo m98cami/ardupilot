@@ -1,3 +1,5 @@
+//Se definen los id de los comandos para el protocolo serial, conversión de valor a grado y viceversa, definición de la estructura del protocolo serial
+//Definición de las variables de ángulos, roll, pitch, yaw, pwm
 /*
   Alexmos Serial controlled mount backend class
 */
