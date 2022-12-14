@@ -1,8 +1,8 @@
 #include "AP_Mount_Alexmos.h"
 
-#if HAL_MOUNT_ALEXMOS_ENABLED
+#if HAL_MOUNT_ALEXMOS_ENABLED 
 #include <AP_SerialManager/AP_SerialManager.h>
-
+// Editando...
 void AP_Mount_Alexmos::init()
 {
     const AP_SerialManager& serial_manager = AP::serialmanager();
